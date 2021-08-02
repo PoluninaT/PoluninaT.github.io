@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="html-form.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cписок покупок</title>
+</head>
+<body>
+    <header>
+        <h1>Список покупок</h1>
+    </header>
+<main>
+    <form action="http://tanywkaaa@gmail.com" method="POST">
+    <fieldset id="field1">
+        <legend>Информация о заказе</legend>
+         <label for="Имя покупателя:">Имя покупателя:</label>
+        <br>
+        <input type="text"> 
+        <br>
+        <br>
+        <label for="Фамилия покупателя:">Фамилия покупателя:</label>
+        <br>
+        <input type="text">
+        <br>
+        <br>
+        <label for="Адресс доставки:">Адресс доставки:</label>
+        <br>
+        <input type="text">
+        <br>
+        <br>
+        <label for="Способ оплаты">Способ оплаты</label>
+        <br>
+        <input type="radio" name="Споcоб оплаты" value="Наличными курьеру">Наличными курьеру
+        <label for="Способ оплаты"></label>
+        <br>
+        <input type="radio" name="Споcоб оплаты" value="Visa/Mastercard/ApplePay">Visa/Mastercard/ApplePay
+        <br>
+        <br>
+        <label for="Магазин для покупок">Магазин для покупок</label>
+        <br>
+    <select name="Магазин для покупок" >
+           <option value=""></option>
+           <option value="Novus">Novus</option>
+           <option value="Сильпо">Сильпо</option>
+           <option value="АТБ">АТБ</option>
+           <option value="Varus">Varus</option>
+    </select>
+    </fieldset>
+    <fieldset id="field2">
+        <legend>Список покупок</legend>
+        <ul>
+            <li> 
+                <input type="checkbox" name="Курица" >
+                <label for="Курица">Курица</label>
+            </li>
+            <li> 
+                <input type="checkbox" name="Говядина" >
+                <label for="Говядина">Говядина</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Рыба" >
+                <label for="Рыба">Рыба</label>
+            </li>
+            <li> 
+                <input type="checkbox" name="Овощи" >
+                <label for="Овощи">Овощи</label>
+            </li>
+            <li> 
+                <input type="checkbox" name="Сахар" >
+                <label for="Сахар">Сахар</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Алкоголь" >
+                <label for="Алкоголь">Алкоголь</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Сигареты" >
+                <label for="Сигареты">Сигареты</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Десерт" >
+                <label for="Десерт">Десерт</label>
+            </li>
+        </ul>
+    </fieldset>
+    <br>
+    <br>
+    
+    <button type="submit">Оформить заказ</button>
+    </form> 
+</main>  
+</body>
+</html>

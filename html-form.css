@@ -1,0 +1,39 @@
+body{
+    background: url("https://static7.depositphotos.com/1063437/760/i/600/depositphotos_7605793-stock-photo-groceries-in-wicker-basket-including.jpg") no-repeat right ;
+    
+    
+}
+h1{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+
+ }
+   
+ li {
+     list-style-type: none;
+
+ }
+ input[type=text] {
+     padding: 10px;
+     border-radius: 10px;
+     border: 1px darkcyan solid;
+ }     
+
+ input[type=radio]{
+     margin: 5px;
+ }
+
+ button {
+     color: rgb(255, 255, 255);
+     background-color: darkcyan;
+     text-align: center;
+     height: 40px;
+     border-radius: 10px;
+     width: 165px;
+ }
+ select {
+    width: 165px;
+    padding:10px;
+    border-radius:10px;
+    border: 1px solid darkcyan;
+ }
