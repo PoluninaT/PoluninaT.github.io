@@ -1,0 +1,50 @@
+li{
+    list-style-type: none;
+    
+    text-align: center;
+}
+a:link , a:visited{
+    color: #2a69a6;  
+}
+
+a{
+    font-size: 30px;
+    border: 1px #2a69a6 solid;
+    margin-left: 170px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+div{
+    display: inline-block;
+    width: 30%;
+    margin-top: 200px;
+}
+body {
+    background-image: url('https://mir-oboev.ua/image/cache/catalog/oboi/HPDM29884109-1000x1000.jpg');
+    width: 100%;
+}
+
+p{
+    color: gray;
+    line-height: 30px;
+    font-family: sans-serif;
+    margin-left: 140px;
+    text-align: center;
+    
+}
+a:hover{
+    background-color: #2a69a6;
+    border: 3px white solid;
+    color: white;
+}
+
+.icon1{
+    padding: 30px 40px;
+   
+}
+.icon2 ,.icon3{
+    padding: 30px 35px;
+}
+
