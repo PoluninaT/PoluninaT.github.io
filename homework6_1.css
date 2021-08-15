@@ -1,0 +1,63 @@
+
+body{
+    background-image: url('https://mir-oboev.ua/image/cache/catalog/oboi/HPDM29884109-1000x1000.jpg');
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+section{
+    display: inline-block;
+    width: 20%;
+    margin: 30px -3px;
+    height: 450px;
+    
+}
+h1,h3,h5 {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h3,h5{
+    color: black;
+    opacity: 0.5;
+}
+h3{
+    margin-bottom: 100px;
+}
+
+h1{
+    color: rgb(14, 200, 203);
+}
+i{
+    display: inline-block;
+  margin: 5px 100px 50px;
+    
+    font-size: 50pt;
+}
+
+p{
+    color: black;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 30px;
+    padding: 10px 30px;
+    height: 300px;
+    
+}
+
+section:hover {
+    background-color: rgb(14, 200, 203);
+    color: white;
+    opacity: 0.8;
+   
+}
+nav{
+    margin-left: 150px;
+}
+
+p:hover{
+    color: white;
+}
+
+

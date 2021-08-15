@@ -1,6 +1,5 @@
 li{
     list-style-type: none;
-    
     text-align: center;
 }
 a:link , a:visited{
@@ -17,9 +16,10 @@ a{
 }
 
 div{
-    display: inline-block;
-    width: 30%;
+    display:inline-block;
+    width: 25%;
     margin-top: 200px;
+    margin-left: 50px;
 }
 body {
     background-image: url('https://mir-oboev.ua/image/cache/catalog/oboi/HPDM29884109-1000x1000.jpg');
